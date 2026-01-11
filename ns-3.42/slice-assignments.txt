@@ -1,0 +1,7 @@
+Time(s)	Event
+0.0	UE 0 assigned to Slice eMBB
+0.0	UE 1 assigned to Slice eMBB
+0.0	UE 2 assigned to Slice URLLC
+0.0	UE 3 assigned to Slice URLLC
+0.0	UE 4 assigned to Slice mMTC
+0.0	UE 5 assigned to Slice mMTC
