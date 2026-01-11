@@ -1,0 +1,202 @@
+# =============================================================================
+# ns-3 .gitignore
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# ns-3.42 specific paths (when placed at ns-allinone root)
+# -----------------------------------------------------------------------------
+ns-3.42/build/
+ns-3.42/cmake-cache/
+ns-3.42/__pycache__/
+
+# -----------------------------------------------------------------------------
+# Build directories
+# -----------------------------------------------------------------------------
+build/
+cmake-cache/
+.waf*/
+.lock-waf*
+waf-tools/
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.eggs/
+dist/
+*.whl
+
+# -----------------------------------------------------------------------------
+# Simulation output files (trace files, stats, logs)
+# -----------------------------------------------------------------------------
+# NR/LTE trace files
+*Trace.txt
+*Stats.txt
+*Sinr.txt
+*Stats.txt
+
+# Specific trace patterns
+Dl*.txt
+Ul*.txt
+Nr*.txt
+Rxed*.txt
+Txed*.txt
+RxPacketTrace.txt
+
+# Flow monitor results
+flowmon*.xml
+
+# Slice related outputs
+slice-*.txt
+
+# Animation files
+*.xml
+!**/CMakeLists.txt.xml
+
+# pcap files
+*.pcap
+*.pcap.gz
+
+# ASCII trace files
+*.tr
+*.ascii
+
+# Mobility trace files
+*.mob
+
+# Throughput/performance logs
+*.log
+*.dat
+*.csv
+
+# -----------------------------------------------------------------------------
+# IDE and Editor files
+# -----------------------------------------------------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+*.iml
+cmake-build-*/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.#*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------------------------------------------------------
+# Compiled files
+# -----------------------------------------------------------------------------
+*.o
+*.a
+*.la
+*.lo
+*.obj
+*.lib
+*.dll
+*.exe
+*.out
+
+# Shared libraries
+*.so
+*.so.*
+*.dylib
+
+# Static libraries
+*.a
+
+# -----------------------------------------------------------------------------
+# CMake
+# -----------------------------------------------------------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+!build-support/*.cmake
+!build-support/custom-modules/*.cmake
+
+# -----------------------------------------------------------------------------
+# Documentation build
+# -----------------------------------------------------------------------------
+doc/html/
+doc/latex/
+doc/xml/
+doc/*.html
+doc/doxygen/
+doc/_build/
+
+# -----------------------------------------------------------------------------
+# ns-3 specific
+# -----------------------------------------------------------------------------
+# Scratch programs (optional - uncomment if you want to ignore scratch)
+# scratch/
+
+# Contrib modules (optional - uncomment if pulled externally)
+# contrib/
+
+# Version cache
+build-support/version.cache
+
+# WAF build system (legacy)
+.waf-*
+.waf3-*
+waf
+waf3
+
+# ns-3 config
+.ns3rc
+
+# -----------------------------------------------------------------------------
+# Test outputs
+# -----------------------------------------------------------------------------
+testpy-output/
+*.test
+
+# -----------------------------------------------------------------------------
+# Compressed files (usually generated)
+# -----------------------------------------------------------------------------
+*.tar.gz
+*.tar.bz2
+*.zip
+*.tgz
+
+# -----------------------------------------------------------------------------
+# Temporary files
+# -----------------------------------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# -----------------------------------------------------------------------------
+# Core dumps
+# -----------------------------------------------------------------------------
+core
+core.*
+vgcore.*
