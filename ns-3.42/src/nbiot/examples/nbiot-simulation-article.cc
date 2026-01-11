@@ -92,6 +92,9 @@ namespace NetworkConfig
     constexpr double CARRIER_FREQ_HZ = 900e6;
     constexpr uint32_t DL_EARFCN = 3450;        // Example EARFCN
     constexpr uint32_t UL_EARFCN = 21450;       // Corresponding UL EARFCN
+    
+    // Scheduling limits
+    constexpr uint32_t MAX_UES_PER_TTI = 12;    // Max UEs that can be scheduled per TTI
 }
 
 // ============================================================================
