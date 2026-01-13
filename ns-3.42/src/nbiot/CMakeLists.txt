@@ -85,3 +85,9 @@ build_lib_example(
     SOURCE_FILES examples/nbiot-simulation-article.cc
     LIBRARIES_TO_LINK ${libnbiot}
 )
+
+build_lib_example(
+    NAME nbiot-simulation-article-light
+    SOURCE_FILES examples/nbiot-simulation-article-light.cc
+    LIBRARIES_TO_LINK ${libnbiot}
+)

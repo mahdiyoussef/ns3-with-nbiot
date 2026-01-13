@@ -1,0 +1,14 @@
+num_ues,ds_mean_latency_ms,sps_mean_latency_ms,latency_difference_ms,meets_10ms_requirement_sps,meets_50ms_requirement_sps
+1,8.592,11.335,-2.743,false,true
+5,11.367,2.988,8.378,true,true
+10,16.493,3.362,13.131,true,true
+15,22.704,5.561,17.143,true,true
+20,29.589,8.568,21.022,true,true
+30,44.934,16.187,28.747,false,true
+40,61.787,25.236,36.551,false,true
+50,79.793,35.314,44.479,false,true
+60,98.713,46.184,52.528,false,true
+70,118.384,57.697,60.687,false,false
+80,138.710,69.758,68.952,false,false
+90,159.596,82.286,77.310,false,false
+100,180.972,95.221,85.752,false,false
